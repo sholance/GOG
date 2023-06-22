@@ -5,7 +5,10 @@
   "main": "app.js",
   "scripts": {
     "test": "app.js",
-    "start": "app.js"
+    "start": "app.js",
+    "build": "node ./app/build.js",
+    "publish": "node ./app/build.js",
+    "serve": "node ./app/serve.js"
   },
   "keywords": [
     "GOG"
