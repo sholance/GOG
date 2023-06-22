@@ -24,7 +24,7 @@ import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer';
 import styled from 'styled-components';
 import KeplerGl from '@kepler.gl/components';
 
-const MAPBOX_TOKEN = `pk.eyJ1Ijoib2x1d2FuaXNob2xhIiwiYSI6ImNrbmJ2MHpudjA4YzEyem83bTJvcm92eXIifQ.3KK5FM6B6mNLivUjECg-sg`; // eslint-disable-line
+const MAPBOX_TOKEN = `process.env.TOKEN`; // eslint-disable-line
 
 const StyledWrapper = styled.div`
   position: absolute;
