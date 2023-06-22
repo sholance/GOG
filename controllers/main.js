@@ -10,6 +10,12 @@ mapController = (req, res) => {
   })
 };
 
+mapController2 = (req, res) => {
+  res.render('map2', {
+    title: "Simulation"
+  })
+};
+
 reportController = (req, res) => {
   res.render('report', {
     title: "Analysis"
@@ -20,5 +26,6 @@ reportController = (req, res) => {
 module.exports = { 
   homeController,
   mapController,
+  mapController2,
   reportController 
 };

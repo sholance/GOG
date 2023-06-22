@@ -18,6 +18,9 @@ body {
   padding: 0;
 }
 
+.section {
+  padding: 50px 0px;
+}
 .video-background-holder {
   position: relative;
   background-color: black;
