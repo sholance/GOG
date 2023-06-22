@@ -4,11 +4,8 @@
   "description": "Tracking the movement of waste in the gulf og guinea",
   "main": "app.js",
   "scripts": {
-    "test": "app.js",
-    "start": "app.js",
-    "build": "node ./app/build.js",
-    "publish": "node ./app/build.js",
-    "serve": "node ./app/serve.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "keywords": [
     "GOG"
